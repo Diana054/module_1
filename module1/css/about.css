@@ -1,0 +1,21 @@
+.about{
+
+}
+
+.about__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F063B826;
+    border-radius: 50px;
+    padding: 32px 92px 32px 16px;
+}
+
+.about__img{
+    width: 100%;
+    max-width: 496px;
+}
+
+.about__text{
+    width: 475px;
+}

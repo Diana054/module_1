@@ -1,0 +1,22 @@
+.header{
+    margin: 60px 0;
+}
+
+.logo{
+    margin-right: 120px;
+    max-width: 50px;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.navigation__list{
+    display: flex;
+    gap: 40px;
+}
+
+.navigation__list-link{
+    font-size: 16px;
+}
