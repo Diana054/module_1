@@ -35,3 +35,24 @@ h2{
     margin-bottom: 40px;
 
 }
+
+
+.block {
+    position: relative;
+    width: 442px;
+    height: 358px;
+    background-color: rgba(104, 144, 231, 1);
+    margin: 0 auto;
+    border-radius: 50px 50px 50px 0px;
+}
+.block:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-right: 50px solid rgba(104, 144, 231, 1);
+    border-top: 358px solid transparent;
+    border-radius: 50px 50px 50px 0px;
+}
